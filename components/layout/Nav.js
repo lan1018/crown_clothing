@@ -16,10 +16,11 @@ export default function nav() {
                     <li className={styles.nav__listItem}>
                         <Link href="/">Home</Link>
                     </li>
-                    
+
                     <li className={styles.nav__listItem}>
-                        <Link href="/shop">Shop</Link>
+                        <Link href="/shop">shop</Link>
                     </li>
+
 
                     <li className={styles.nav__listItem}>
                         Category
@@ -31,6 +32,11 @@ export default function nav() {
                             <li><Link href="/shop/mens">Men's</Link></li>
                         </ul>
                     </li>
+
+                    <li className={styles.nav__listItem}>
+                        <Link href="/api">API Project</Link>
+                    </li>
+                    
                     
                 </ul>
             </nav>

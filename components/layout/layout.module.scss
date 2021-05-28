@@ -1,9 +1,11 @@
 .layout {
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
 
-    .main {
-        margin: 1rem auto;
-        width: 100%;
-    }
+  .main {
+    margin: 1rem auto;
+    width: 100%;
+  }
 }
